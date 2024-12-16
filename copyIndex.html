@@ -1,0 +1,3083 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corporativo Rizav S.A de C.V.</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="56x56"
+      href="assets/icons/icon.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+  </head>
+
+  <body class="text-white">
+    <nav
+      class="border-b-[1px] border-[rgba(255,255,255,0.2)] fixed w-full top-0 left-0 transition-all duration-500 backdrop-blur-sm z-50"
+      id="navbar"
+    >
+      <div
+        class="flex flex-wrap items-center justify-between p-4 mx-auto max-w-screen-2xl"
+      >
+        <a href="#" class="flex items-center">
+          <img
+            src="./assets/icons/logorizav.png"
+            class="mr-3"
+            alt="Rizav Logo"
+          />
+        </a>
+        <div class="flex md:order-2">
+          <a href="#contact">
+            <button
+              type="button"
+              class="relative text-base font-medium text-white"
+            >
+              <span
+                style="--i: 1"
+                class="relative inline-block text-xl font-medium uppercase animated-element"
+                >C</span
+              >
+              <span
+                style="--i: 2"
+                class="relative inline-block text-xl font-medium uppercase animated-element"
+                >o</span
+              >
+              <span
+                style="--i: 3"
+                class="relative inline-block text-xl font-medium uppercase animated-element"
+                >n</span
+              >
+              <span
+                style="--i: 4"
+                class="relative inline-block text-xl font-medium uppercase animated-element"
+                >t</span
+              >
+              <span
+                style="--i: 5"
+                class="relative inline-block text-xl font-medium uppercase animated-element"
+                >á</span
+              >
+              <span
+                style="--i: 6"
+                class="relative inline-block text-xl font-medium uppercase animated-element"
+                >c</span
+              >
+              <span
+                style="--i: 7"
+                class="relative inline-block text-xl font-medium uppercase animated-element"
+                >t</span
+              >
+              <span
+                style="--i: 8"
+                class="relative inline-block text-xl font-medium uppercase animated-element"
+                >a</span
+              >
+              <span
+                style="--i: 9"
+                class="relative inline-block text-xl font-medium uppercase animated-element"
+                >n</span
+              >
+              <span
+                style="--i: 10"
+                class="relative inline-block text-xl font-medium uppercase animated-element"
+                >o</span
+              >
+              <span
+                style="--i: 11"
+                class="relative inline-block text-xl font-medium uppercase animated-element"
+                >s</span
+              >
+            </button>
+
+            <button
+              data-collapse-toggle="navbar-sticky"
+              type="button"
+              class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm rounded-lg md:hidden"
+              aria-controls="navbar-sticky"
+              aria-expanded="false"
+              onclick="Menu(this)"
+              name="menu"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
+          </a>
+        </div>
+
+        <div
+          class="items-center justify-between w-full md:flex md:w-auto md:order-1"
+          id="navbar-sticky"
+        >
+          <ul
+            class="md:flex md:items-center gap-4 z-[-1] md:z-auto md:static absolute bg-transparent w-full left-0 md:w-auto md:py-0 md:pl-0 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300 border border-r-0 border-l-0 divide-y md:divide-y-0 border-none"
+          >
+            <li>
+              <a
+                href="#home"
+                class="bg-[rgba(255,255,255,0.2)] border-t-[1px] border-b-[1px] border-[rgba(255,255,255,0.2)] z-[1] relative text-base inline-block overflow-hidden rounded-full px-4 py-2 font-medium text-white hover:tracking-[1px] transition-all before:content-[''] before:absolute before:top-0 before:left-0 before:w-2/4 before:h-full before:bg-gradient-to-l from-[rgba(255,255,255,0.45)] to-transparent before:skew-x-[45deg] before:translate-x-0 before:transition-all hover:before:skew-x-[45deg] hover:before:translate-x-[200%] hover:before:transition-all"
+              >
+                Inicio
+              </a>
+            </li>
+            <li>
+              <a
+                href="#clientes"
+                class="bg-[rgba(255,255,255,0.2)] border-t-[1px] border-b-[1px] border-[rgba(255,255,255,0.2)] z-[1] relative text-base inline-block overflow-hidden rounded-full px-4 py-2 font-medium text-white hover:tracking-[1px] transition-all before:content-[''] before:absolute before:top-0 before:left-0 before:w-2/4 before:h-full before:bg-gradient-to-l from-[rgba(255,255,255,0.45)] to-transparent before:skew-x-[45deg] before:translate-x-0 before:transition-all hover:before:skew-x-[45deg] hover:before:translate-x-[200%] hover:before:transition-all"
+              >
+                Nuestros clientes
+              </a>
+            </li>
+            <li>
+              <a
+                href="#portafolio"
+                class="bg-[rgba(255,255,255,0.2)] border-t-[1px] border-b-[1px] border-[rgba(255,255,255,0.2)] z-[1] relative text-base inline-block overflow-hidden rounded-full px-4 py-2 font-medium text-white hover:tracking-[1px] transition-all before:content-[''] before:absolute before:top-0 before:left-0 before:w-2/4 before:h-full before:bg-gradient-to-l from-[rgba(255,255,255,0.45)] to-transparent before:skew-x-[45deg] before:translate-x-0 before:transition-all hover:before:skew-x-[45deg] hover:before:translate-x-[200%] hover:before:transition-all"
+              >
+                Portafolio
+              </a>
+            </li>
+            <li>
+              <a
+                href="#servicios"
+                class="bg-[rgba(255,255,255,0.2)] border-t-[1px] border-b-[1px] border-[rgba(255,255,255,0.2)] z-[1] relative text-base inline-block overflow-hidden rounded-full px-4 py-2 font-medium text-white hover:tracking-[1px] transition-all before:content-[''] before:absolute before:top-0 before:left-0 before:w-2/4 before:h-full before:bg-gradient-to-l from-[rgba(255,255,255,0.45)] to-transparent before:skew-x-[45deg] before:translate-x-0 before:transition-all hover:before:skew-x-[45deg] hover:before:translate-x-[200%] hover:before:transition-all"
+              >
+                Nuestros servicios
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <a name="home"></a>
+    <section class="flex w-full">
+      <div
+        class="flex w-full h-screen bg-center bg-cover bg-gray-950"
+        style="background-image: url(./assets/bg/slider3.png)"
+      >
+        <div class="w-[5%] h-screen bg-cover flex items-center justify-center">
+          <div class="flex gap-2 rotate-90">
+            <div class="flex flex-wrap gap-1">
+              <div class="h-[1px] w-[120px] bg-white mb-0 m-auto"></div>
+              <div class="h-[1px] w-[120px] bg-white mt-0 m-auto"></div>
+            </div>
+            <a name="clientes"></a>
+            <h1
+              class="text-whibg-white text-2xl tracking-[1em] font-bold uppercase"
+            >
+              HOME
+            </h1>
+            <div class="flex flex-wrap gap-1 -ml-5">
+              <div class="h-[1px] w-[120px] bg-white mb-0 m-auto"></div>
+              <div class="h-[1px] w-[120px] bg-white mt-0 m-auto"></div>
+            </div>
+          </div>
+        </div>
+        <div class="w-[95%] flex justify-center items-end">
+          <div class="flex flex-col items-center justify-center gap-10 h-96">
+            <div class="italic font-bold tracking-widest text-8xl">
+              Bienvenidos
+            </div>
+            <div class="grid grid-cols-4 gap-32">
+              <div class="relative group">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                >
+                  <img
+                    src="assets/icons/calendar-orange.png"
+                    alt=""
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div
+                  class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                >
+                  <img
+                    src="assets/icons/calendar-white.png"
+                    alt=""
+                    width="40"
+                    height="40"
+                  />
+                </div>
+              </div>
+              <div class="relative group">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                >
+                  <img
+                    src="assets/icons/map-orange.png"
+                    alt=""
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div
+                  class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                >
+                  <img
+                    src="assets/icons/map-white.png"
+                    alt=""
+                    width="40"
+                    height="40"
+                  />
+                </div>
+              </div>
+              <div class="relative group">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                >
+                  <img
+                    src="assets/icons/building-orange.png"
+                    alt=""
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div
+                  class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                >
+                  <img
+                    src="assets/icons/building-white.png"
+                    alt=""
+                    width="40"
+                    height="40"
+                  />
+                </div>
+              </div>
+              <div class="relative group">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                >
+                  <img
+                    src="assets/icons/hands-orange.png"
+                    alt=""
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div
+                  class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                >
+                  <img
+                    src="assets/icons/hands-white.png"
+                    alt=""
+                    width="40"
+                    height="40"
+                  />
+                </div>
+              </div>
+              <!-- <div class="relative group">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                >
+                  <img
+                    src="assets/icons/hands-orange.png"
+                    alt=""
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div
+                  class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                >
+                  <img
+                    src="assets/icons/hands-white.png"
+                    alt=""
+                    width="40"
+                    height="40"
+                  />
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <main
+        class="relative flex flex-col justify-center overflow-hidden"
+        style="background-image: url(./assets/bg/slider-5.jpg)"
+      >
+        <div class="w-full max-w-full px-4 mx-auto md:px-6 py-9">
+          <div class="text-center">
+            <div
+              x-data="{}"
+              x-init="$nextTick(() => {
+                        let ul = $refs.logos;
+                        ul.insertAdjacentHTML('afterend', ul.outerHTML);
+                        ul.nextSibling.setAttribute('aria-hidden', 'true');
+                    })"
+              class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
+            >
+              <ul
+                x-ref="logos"
+                class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
+              >
+                <li>
+                  <img
+                    src="assets/brand/brand-funo.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img src="assets/brand/twa.svg" alt="a3o" class="h-20 w-36" />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-cmr.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-lovisa.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-att.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-interstuhl.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-santaClara.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-adenza.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-richis.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-cimesa.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-edilar.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-a3o.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-freyssinet.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-grupoBatia.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-mitzub.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-morganPhilips.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+              </ul>
+              <ul
+                x-ref="logos"
+                class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
+                aria-hidden="true"
+              >
+                <li>
+                  <img
+                    src="assets/brand/brand-funo.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img src="assets/brand/twa.svg" alt="a3o" class="h-20 w-36" />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-cmr.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-lovisa.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-att.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-interstuhl.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-santaClara.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-adenza.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-richis.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-cimesa.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-edilar.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-a3o.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-freyssinet.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-grupoBatia.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-mitzub.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="assets/brand/brand-morganPhilips.png"
+                    alt="a3o"
+                    class="h-20 w-36"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+    <a name="portafolio" class=""></a>
+
+    <section class="flex w-full relative pt-20 bg-[#254966]">
+      <div class="w-[5%] h-screen flex items-center justify-center">
+        <div class="flex gap-2 rotate-90">
+          <div class="flex flex-wrap gap-1">
+            <div class="h-[1px] w-[120px] bg-white mb-0 m-auto"></div>
+            <div class="h-[1px] w-[120px] bg-white mt-0 m-auto"></div>
+          </div>
+          <h1 class="text-white text-2xl tracking-[1em] font-bold uppercase">
+            Portafolio
+          </h1>
+          <div class="flex flex-wrap gap-1 -ml-5">
+            <div class="h-[1px] w-[120px] bg-white mb-0 m-auto"></div>
+            <div class="h-[1px] w-[120px] bg-white mt-0 m-auto"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-[95%] flex justify-center mt-4 z-10">
+        <div class="mx-4 containerGallery">
+          <div class="box one">
+            <div
+              id="default-carousel"
+              class="relative h-screen"
+              data-carousel="static"
+            >
+              <div
+                class="overflow-hidden relative h-screen rounded-lg sm:h-64 xl:h-80 2xl:h-96 min-h-[800px]"
+              >
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Adenza</div>
+
+                            <div class="text-lg">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Distinctio dolores error iure,
+                              perferendis sequi totam. Ad aliquam aperiam atque
+                              deleniti dolor dolorem enim esse et in, inventore
+                              itaque, pariatur reprehenderit.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Adenza/Adenza01.jpg"
+                        alt="Adenza"
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Adenza</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Adenza/Adenza02.jpg"
+                        alt="Adenza"
+                        class="object-cover w-full min-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Adenza</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Adenza/Adenza03.jpg"
+                        alt="Adenza"
+                        class="object-cover w-full min-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Adenza</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Adenza/Adenza04.jpg"
+                        alt="Adenza"
+                        class="object-cover w-full min-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Adenza</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Adenza/Adenza05.jpg"
+                        alt="Adenza"
+                        class="object-cover w-full min-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Adenza</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Adenza/Adenza06.jpg"
+                        alt="Adenza"
+                        class="object-cover w-full min-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Adenza</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Adenza/Adenza07.jpg"
+                        alt="Adenza"
+                        class="object-cover w-full min-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Adenza</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Adenza/Adenza08.jpeg"
+                        alt="Adenza"
+                        class="object-cover w-full min-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Adenza</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Adenza/Adenza09.jpg"
+                        alt="Adenza"
+                        class="object-cover w-full min-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Adenza</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Adenza/Adenza10.jpg"
+                        alt="Adenza"
+                        class="object-cover w-full min-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                class="absolute left-0 z-30 items-center justify-center px-4 cursor-pointer top-2/4 group focus:outline-none"
+                data-carousel-prev
+              >
+                <span
+                  class="inline-flex justify-center items-center rounded-full sm:w-10 sm:h-10 opacity-20 has-[:hover]:bg-white/80 has-[:hover]:opacity-100"
+                >
+                  <img src="./assets/icons/arrow-left.svg" alt="" />
+                  <span class="hidden">Anterior</span>
+                </span>
+              </button>
+              <button
+                type="button"
+                class="absolute right-0 z-30 items-center justify-center px-4 cursor-pointer top-2/4 group focus:outline-none"
+                data-carousel-next
+              >
+                <span
+                  class="inline-flex justify-center items-center rounded-full sm:w-10 sm:h-10 opacity-20 has-[:hover]:bg-white/80 has-[:hover]:opacity-100"
+                >
+                  <img src="./assets/icons/arrow-right.svg" alt="" />
+                  <span class="hidden">Siguiente</span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="box two">
+            <div
+              id="default-carousel"
+              class="relative h-screen"
+              data-carousel="static"
+            >
+              <div
+                class="overflow-hidden relative h-screen rounded-lg sm:h-64 xl:h-80 2xl:h-96 min-h-[800px]"
+              >
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">FUNO</div>
+
+                            <div class="text-lg">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Distinctio dolores error iure,
+                              perferendis sequi totam. Ad aliquam aperiam atque
+                              deleniti dolor dolorem enim esse et in, inventore
+                              itaque, pariatur reprehenderit.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/FUNO/FUNO-03.jpg"
+                        alt="FUNO-03"
+                        class="object-cover w-full min-h-[800px] max-h-[800px] aspect-square transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">FUNO</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/FUNO/FUNO-01.jpg"
+                        alt="FUNO-03"
+                        class="object-cover w-full min-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">FUNO</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/FUNO/FUNO-02.jpg"
+                        alt="FUNO-03"
+                        class="object-cover w-full min-h-[800px] aspect-square transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">FUNO</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/FUNO/FUNO-04.jpg"
+                        alt="FUNO-03"
+                        class="object-cover w-full min-h-[800px] aspect-square transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">FUNO</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/FUNO/FUNO-05.jpg"
+                        alt="FUNO-03"
+                        class="object-cover w-full min-h-[800px] aspect-square transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">FUNO</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/FUNO/FUNO-06.jpg"
+                        alt="FUNO-03"
+                        class="object-cover w-full min-h-[800px] aspect-square transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">FUNO</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/FUNO/FUNO-07.jpg"
+                        alt="FUNO-03"
+                        class="object-cover w-full min-h-[800px] aspect-square transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">FUNO</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/FUNO/FUNO-08.jpg"
+                        alt="FUNO-03"
+                        class="object-cover w-full min-h-[800px] aspect-square transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                class="absolute left-0 z-30 items-center justify-center px-4 cursor-pointer top-2/4 group focus:outline-none"
+                data-carousel-prev
+              >
+                <span
+                  class="inline-flex justify-center items-center rounded-full sm:w-10 sm:h-10 opacity-20 has-[:hover]:bg-white/80 has-[:hover]:opacity-100"
+                >
+                  <img src="./assets/icons/arrow-left.svg" alt="" />
+                  <span class="hidden">Anterior</span>
+                </span>
+              </button>
+              <button
+                type="button"
+                class="absolute right-0 z-30 items-center justify-center px-4 cursor-pointer top-2/4 group focus:outline-none"
+                data-carousel-next
+              >
+                <span
+                  class="inline-flex justify-center items-center rounded-full sm:w-10 sm:h-10 opacity-20 has-[:hover]:bg-white/80 has-[:hover]:opacity-100"
+                >
+                  <img src="./assets/icons/arrow-right.svg" alt="" />
+                  <span class="hidden">Siguiente</span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="box three">
+            <div
+              id="default-carousel"
+              class="relative h-screen"
+              data-carousel="static"
+            >
+              <div
+                class="overflow-hidden relative h-screen rounded-lg sm:h-64 xl:h-80 2xl:h-96 min-h-[800px]"
+              >
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Interstuhl</div>
+
+                            <div class="text-lg">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Distinctio dolores error iure,
+                              perferendis sequi totam. Ad aliquam aperiam atque
+                              deleniti dolor dolorem enim esse et in, inventore
+                              itaque, pariatur reprehenderit.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Interstuhl/Interstuhl-07.jpeg"
+                        alt="Interstuhl-07"
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Interstuhl</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Interstuhl/Interstuhl-01.jpeg"
+                        alt="Interstuhl-07"
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Interstuhl</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Interstuhl/Interstuhl-02.jpeg"
+                        alt="Interstuhl-07"
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Interstuhl</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Interstuhl/Interstuhl-03.jpeg"
+                        alt="Interstuhl-07"
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Interstuhl</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Interstuhl/Interstuhl-04.jpeg"
+                        alt="Interstuhl-07"
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Interstuhl</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Interstuhl/Interstuhl-05.jpeg"
+                        alt="Interstuhl-07"
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Interstuhl</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Interstuhl/Interstuhl-06.jpeg"
+                        alt="Interstuhl-07"
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Interstuhl</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Interstuhl/Interstuhl-08.jpeg"
+                        alt="Interstuhl-07"
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Interstuhl</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Interstuhl/Interstuhl-09.jpeg"
+                        alt="Interstuhl-07"
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                class="absolute left-0 z-30 items-center justify-center px-4 cursor-pointer top-2/4 group focus:outline-none"
+                data-carousel-prev
+              >
+                <span
+                  class="inline-flex justify-center items-center rounded-full sm:w-10 sm:h-10 opacity-20 has-[:hover]:bg-white/80 has-[:hover]:opacity-100"
+                >
+                  <img src="./assets/icons/arrow-left.svg" alt="" />
+                  <span class="hidden">Anterior</span>
+                </span>
+              </button>
+              <button
+                type="button"
+                class="absolute right-0 z-30 items-center justify-center px-4 cursor-pointer top-2/4 group focus:outline-none"
+                data-carousel-next
+              >
+                <span
+                  class="inline-flex justify-center items-center rounded-full sm:w-10 sm:h-10 opacity-20 has-[:hover]:bg-white/80 has-[:hover]:opacity-100"
+                >
+                  <img src="./assets/icons/arrow-right.svg" alt="" />
+                  <span class="hidden">Siguiente</span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="box four">
+            <div
+              id="default-carousel"
+              class="relative h-screen"
+              data-carousel="static"
+            >
+              <div
+                class="overflow-hidden relative h-screen rounded-lg sm:h-64 xl:h-80 2xl:h-96 min-h-[800px]"
+              >
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Lovisa</div>
+
+                            <div class="text-lg">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Distinctio dolores error iure,
+                              perferendis sequi totam. Ad aliquam aperiam atque
+                              deleniti dolor dolorem enim esse et in, inventore
+                              itaque, pariatur reprehenderit.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Lovisa/Lovisa-06.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Lovisa</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Lovisa/Lovisa-01.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Lovisa</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Lovisa/Lovisa-02.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Lovisa</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Lovisa/Lovisa-03.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Lovisa</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Lovisa/Lovisa-04.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Lovisa</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Lovisa/Lovisa-05.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Lovisa</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Lovisa/Lovisa-07.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Lovisa</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Lovisa/Lovisa-08.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Lovisa</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Lovisa/Lovisa-09.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Lovisa</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/Lovisa/Lovisa-10.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                class="absolute left-0 z-30 items-center justify-center px-4 cursor-pointer top-2/4 group focus:outline-none"
+                data-carousel-prev
+              >
+                <span
+                  class="inline-flex justify-center items-center rounded-full sm:w-10 sm:h-10 opacity-20 has-[:hover]:bg-white/80 has-[:hover]:opacity-100"
+                >
+                  <img src="./assets/icons/arrow-left.svg" alt="" />
+                  <span class="hidden">Anterior</span>
+                </span>
+              </button>
+              <button
+                type="button"
+                class="absolute right-0 z-30 items-center justify-center px-4 cursor-pointer top-2/4 group focus:outline-none"
+                data-carousel-next
+              >
+                <span
+                  class="inline-flex justify-center items-center rounded-full sm:w-10 sm:h-10 opacity-20 has-[:hover]:bg-white/80 has-[:hover]:opacity-100"
+                >
+                  <img src="./assets/icons/arrow-right.svg" alt="" />
+                  <span class="hidden">Siguiente</span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="box five">
+            <div
+              id="default-carousel"
+              class="relative h-screen"
+              data-carousel="static"
+            >
+              <div
+                class="overflow-hidden relative h-screen rounded-lg sm:h-64 xl:h-80 2xl:h-96 min-h-[800px]"
+              >
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">MIBP</div>
+
+                            <div class="text-lg">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Distinctio dolores error iure,
+                              perferendis sequi totam. Ad aliquam aperiam atque
+                              deleniti dolor dolorem enim esse et in, inventore
+                              itaque, pariatur reprehenderit.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/MIBP/MIBP-02.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">MIBP</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/MIBP/MIBP-01.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">MIBP</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/MIBP/MIBP-03.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">MIBP</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/MIBP/MIBP-04.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">MIBP</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/MIBP/MIBP-05.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">MIBP</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/MIBP/MIBP-06.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">MIBP</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/MIBP/MIBP-07.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">MIBP</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/MIBP/MIBP-08.jpeg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                class="absolute left-0 z-30 items-center justify-center px-4 cursor-pointer top-2/4 group focus:outline-none"
+                data-carousel-prev
+              >
+                <span
+                  class="inline-flex justify-center items-center rounded-full sm:w-10 sm:h-10 opacity-20 has-[:hover]:bg-white/80 has-[:hover]:opacity-100"
+                >
+                  <img src="./assets/icons/arrow-left.svg" alt="" />
+                  <span class="hidden">Anterior</span>
+                </span>
+              </button>
+              <button
+                type="button"
+                class="absolute right-0 z-30 items-center justify-center px-4 cursor-pointer top-2/4 group focus:outline-none"
+                data-carousel-next
+              >
+                <span
+                  class="inline-flex justify-center items-center rounded-full sm:w-10 sm:h-10 opacity-20 has-[:hover]:bg-white/80 has-[:hover]:opacity-100"
+                >
+                  <img src="./assets/icons/arrow-right.svg" alt="" />
+                  <span class="hidden">Siguiente</span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="box six">
+            <div
+              id="default-carousel"
+              class="relative h-screen"
+              data-carousel="static"
+            >
+              <div
+                class="overflow-hidden relative h-screen rounded-lg sm:h-64 xl:h-80 2xl:h-96 min-h-[800px]"
+              >
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Santa Clara</div>
+
+                            <div class="text-lg">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Distinctio dolores error iure,
+                              perferendis sequi totam. Ad aliquam aperiam atque
+                              deleniti dolor dolorem enim esse et in, inventore
+                              itaque, pariatur reprehenderit.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/SantaClara/SantaClara-01.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Santa Clara</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/SantaClara/SantaClara-02.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Santa Clara</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/SantaClara/SantaClara-03.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Santa Clara</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/SantaClara/SantaClara-04.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Santa Clara</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/SantaClara/SantaClara-05.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Santa Clara</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/SantaClara/SantaClara-06.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">Santa Clara</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/SantaClara/SantaClara-07.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                class="absolute left-0 z-30 items-center justify-center px-4 cursor-pointer top-2/4 group focus:outline-none"
+                data-carousel-prev
+              >
+                <span
+                  class="inline-flex justify-center items-center rounded-full sm:w-10 sm:h-10 opacity-20 has-[:hover]:bg-white/80 has-[:hover]:opacity-100"
+                >
+                  <img src="./assets/icons/arrow-left.svg" alt="" />
+                  <span class="hidden">Anterior</span>
+                </span>
+              </button>
+              <button
+                type="button"
+                class="absolute right-0 z-30 items-center justify-center px-4 cursor-pointer top-2/4 group focus:outline-none"
+                data-carousel-next
+              >
+                <span
+                  class="inline-flex justify-center items-center rounded-full sm:w-10 sm:h-10 opacity-20 has-[:hover]:bg-white/80 has-[:hover]:opacity-100"
+                >
+                  <img src="./assets/icons/arrow-right.svg" alt="" />
+                  <span class="hidden">Siguiente</span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="box seven">
+            <div
+              id="default-carousel"
+              class="relative h-screen"
+              data-carousel="static"
+            >
+              <div
+                class="overflow-hidden relative h-screen rounded-lg sm:h-64 xl:h-80 2xl:h-96 min-h-[800px]"
+              >
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">VR</div>
+
+                            <div class="text-lg">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Distinctio dolores error iure,
+                              perferendis sequi totam. Ad aliquam aperiam atque
+                              deleniti dolor dolorem enim esse et in, inventore
+                              itaque, pariatur reprehenderit.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/VR/VR07.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">VR</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/VR/VR01.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">VR</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/VR/VR02.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">VR</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/VR/VR03.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">VR</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/VR/VR04.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">VR</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/VR/VR05.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">VR</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/VR/VR06.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">VR</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/VR/VR08.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                class="absolute left-0 z-30 items-center justify-center px-4 cursor-pointer top-2/4 group focus:outline-none"
+                data-carousel-prev
+              >
+                <span
+                  class="inline-flex justify-center items-center rounded-full sm:w-10 sm:h-10 opacity-20 has-[:hover]:bg-white/80 has-[:hover]:opacity-100"
+                >
+                  <img src="./assets/icons/arrow-left.svg" alt="" />
+                  <span class="hidden">Anterior</span>
+                </span>
+              </button>
+              <button
+                type="button"
+                class="absolute right-0 z-30 items-center justify-center px-4 cursor-pointer top-2/4 group focus:outline-none"
+                data-carousel-next
+              >
+                <span
+                  class="inline-flex justify-center items-center rounded-full sm:w-10 sm:h-10 opacity-20 has-[:hover]:bg-white/80 has-[:hover]:opacity-100"
+                >
+                  <img src="./assets/icons/arrow-right.svg" alt="" />
+                  <span class="hidden">Siguiente</span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="box eight">
+            <div
+              id="default-carousel"
+              class="relative h-screen"
+              data-carousel="static"
+            >
+              <div
+                class="overflow-hidden relative h-screen rounded-lg sm:h-64 xl:h-80 2xl:h-96 min-h-[800px]"
+              >
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">AT&T</div>
+                            <div class="text-lg">
+                              Lorem ipsum dolor sit amet, consectetur
+                              adipisicing elit. Distinctio dolores error iure,
+                              perferendis sequi totam. Ad aliquam aperiam atque
+                              deleniti dolor dolorem enim esse et in, inventore
+                              itaque, pariatur reprehenderit.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/ATT/ATT05.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">AT&T</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/ATT/ATT02.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">AT&T</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/ATT/ATT03.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">AT&T</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/ATT/ATT04.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">AT&T</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/ATT/ATT01.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">AT&T</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/ATT/ATT06.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">AT&T</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/ATT/ATT07.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <div class="flex items-center justify-center">
+                    <div class="relative overflow-hidden rounded-xl group">
+                      <div
+                        class="absolute inset-x-0 z-50 flex items-end text-white transition duration-300 ease-in-out opacity-0 rounded-xl group-hover:opacity-100 from-black/80 to-transparent bg-gradient-to-t -bottom-2 pt-30"
+                      >
+                        <div>
+                          <div
+                            class="p-4 pb-10 space-y-3 text-xl transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0"
+                          >
+                            <div class="text-4xl font-bold">AT&T</div>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="assets/images/galery/ATT/ATT10.jpg"
+                        alt=""
+                        class="object-cover w-full min-h-[800px] max-h-[800px] transition duration-300 ease-in-out"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                class="absolute left-0 z-30 items-center justify-center px-4 cursor-pointer top-2/4 group focus:outline-none"
+                data-carousel-prev
+              >
+                <span
+                  class="inline-flex justify-center items-center rounded-full sm:w-10 sm:h-10 opacity-20 has-[:hover]:bg-white/80 has-[:hover]:opacity-100"
+                >
+                  <img src="./assets/icons/arrow-left.svg" alt="" />
+                  <span class="hidden">Anterior</span>
+                </span>
+              </button>
+              <button
+                type="button"
+                class="absolute right-0 z-30 items-center justify-center px-4 cursor-pointer top-2/4 group focus:outline-none"
+                data-carousel-next
+              >
+                <span
+                  class="inline-flex justify-center items-center rounded-full sm:w-10 sm:h-10 opacity-20 has-[:hover]:bg-white/80 has-[:hover]:opacity-100"
+                >
+                  <img src="./assets/icons/arrow-right.svg" alt="" />
+                  <span class="hidden">Siguiente</span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <a name="servicios" class=""></a>
+    <section
+      class="flex h-screen w-full bg-cover bg-[#080d2d]"
+      style="background-image: url(./assets/bg/slider-9.png)"
+    >
+      <div class="w-[5%] h-screen bg-cover flex items-center justify-center">
+        <div class="flex gap-2 rotate-90">
+          <div class="flex flex-wrap gap-1">
+            <div class="h-[1px] w-[120px] bg-white mb-0 m-auto"></div>
+            <div class="h-[1px] w-[120px] bg-white mt-0 m-auto"></div>
+          </div>
+          <h1
+            class="text-whibg-white text-2xl tracking-[1em] font-bold uppercase"
+          >
+            SERVICIOS
+          </h1>
+          <div class="flex flex-wrap gap-1 -ml-5">
+            <div class="h-[1px] w-[120px] bg-white mb-0 m-auto"></div>
+            <div class="h-[1px] w-[120px] bg-white mt-0 m-auto"></div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[60%] flex pt-20">
+        <div class="w-[90%] h-[90%] m-auto grid grid-cols-4">
+          <div class="flex">
+            <div class="flex justify-start items-center max-w-[550px] group">
+              <div class="relative float-left mr-10">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-[#F68A0A]"
+                  >
+                    01
+                  </h5>
+                </div>
+                <div
+                  class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-white"
+                  >
+                    01
+                  </h5>
+                </div>
+              </div>
+              <div class="overflow-hidden">
+                <div class="relative text-2xl tracking-widest">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                  >
+                    Obra civil
+                  </div>
+                  <div
+                    class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                  >
+                    Obra civil
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="flex justify-start items-center max-w-[550px] group">
+              <div class="relative float-left mr-10">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-[#F68A0A]"
+                  >
+                    02
+                  </h5>
+                </div>
+                <div
+                  class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-white"
+                  >
+                    02
+                  </h5>
+                </div>
+              </div>
+              <div class="overflow-hidden">
+                <div class="relative text-2xl tracking-widest">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                  >
+                    Interiores
+                  </div>
+                  <div
+                    class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                  >
+                    Interiores
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="flex justify-start items-center max-w-[550px] group">
+              <div class="relative float-left mr-10">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-[#F68A0A]"
+                  >
+                    03
+                  </h5>
+                </div>
+                <div
+                  class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-white"
+                  >
+                    03
+                  </h5>
+                </div>
+              </div>
+              <div class="overflow-hidden">
+                <div class="relative text-2xl tracking-widest">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                  >
+                    Acabados
+                  </div>
+                  <div
+                    class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                  >
+                    Acabados
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="flex justify-start items-center max-w-[550px] group">
+              <div class="relative float-left mr-10">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-[#F68A0A]"
+                  >
+                    04
+                  </h5>
+                </div>
+                <div
+                  class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-white"
+                  >
+                    04
+                  </h5>
+                </div>
+              </div>
+              <div class="overflow-hidden">
+                <div class="relative text-2xl tracking-widest">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                  >
+                    Instalaciones
+                  </div>
+                  <div
+                    class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                  >
+                    Instalaciones
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="flex justify-start items-center max-w-[550px] group">
+              <div class="relative float-left mr-10">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-[#F68A0A]"
+                  >
+                    05
+                  </h5>
+                </div>
+                <div
+                  class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-white"
+                  >
+                    05
+                  </h5>
+                </div>
+              </div>
+              <div class="overflow-hidden">
+                <div class="relative text-2xl tracking-widest">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                  >
+                    Herrería
+                  </div>
+                  <div
+                    class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                  >
+                    Herrería
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="flex justify-start items-center max-w-[550px] group">
+              <div class="relative float-left mr-10">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-[#F68A0A]"
+                  >
+                    06
+                  </h5>
+                </div>
+                <div
+                  class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-white"
+                  >
+                    06
+                  </h5>
+                </div>
+              </div>
+              <div class="overflow-hidden">
+                <div class="relative text-2xl tracking-widest">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                  >
+                    Cancelería
+                  </div>
+                  <div
+                    class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                  >
+                    Cancelería
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex col-span-2">
+            <div class="flex justify-start items-center max-w-[550px] group">
+              <div class="relative float-left mr-10">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-[#F68A0A]"
+                  >
+                    07
+                  </h5>
+                </div>
+                <div
+                  class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-white"
+                  >
+                    07
+                  </h5>
+                </div>
+              </div>
+              <div class="overflow-hidden">
+                <div class="relative text-2xl tracking-widest">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                  >
+                    Segumiento post-venta
+                  </div>
+                  <div
+                    class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                  >
+                    Segumiento post-venta
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="flex justify-start items-center max-w-[550px] group">
+              <div class="relative float-left mr-10">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-[#F68A0A]"
+                  >
+                    08
+                  </h5>
+                </div>
+                <div
+                  class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-white"
+                  >
+                    08
+                  </h5>
+                </div>
+              </div>
+              <div class="overflow-hidden">
+                <div class="relative text-2xl tracking-widest">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                  >
+                    Costos
+                  </div>
+                  <div
+                    class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                  >
+                    Costos
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="flex justify-start items-center max-w-[550px] group">
+              <div class="relative float-left mr-10">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-[#F68A0A]"
+                  >
+                    09
+                  </h5>
+                </div>
+                <div
+                  class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-white"
+                  >
+                    09
+                  </h5>
+                </div>
+              </div>
+              <div class="overflow-hidden">
+                <div class="relative text-2xl tracking-widest">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                  >
+                    Presupuestos
+                  </div>
+                  <div
+                    class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                  >
+                    Presupuestos
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex col-span-2">
+            <div class="flex justify-start items-center max-w-[550px] group">
+              <div class="relative float-left mr-10">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-[#F68A0A]"
+                  >
+                    10
+                  </h5>
+                </div>
+                <div
+                  class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-white"
+                  >
+                    10
+                  </h5>
+                </div>
+              </div>
+              <div class="overflow-hidden">
+                <div class="relative text-2xl tracking-widest">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                  >
+                    Aluminio y vidrio
+                  </div>
+                  <div
+                    class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                  >
+                    Aluminio y vidrio
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex col-span-4">
+            <div class="flex justify-start items-center max-w-[550px] group">
+              <div class="relative float-left mr-10">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-[#F68A0A]"
+                  >
+                    11
+                  </h5>
+                </div>
+                <div
+                  class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                >
+                  <h5
+                    class="relative text-sm before:absolute before:left-6 before:top-[10px] before:h-[1px] before:w-4 before:content-[''] before:bg-white"
+                  >
+                    11
+                  </h5>
+                </div>
+              </div>
+              <div class="overflow-hidden">
+                <div class="relative text-2xl tracking-widest">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 text-[#F68A0A] origin-top scale-y-0 group-hover:scale-y-100 transition-all duration-[.2s]"
+                  >
+                    Administración de la construcción
+                  </div>
+                  <div
+                    class="origin-bottom scale-y-100 group-hover:scale-y-0 transition-all duration-[.2s]"
+                  >
+                    Administración de la construcción
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[40%] flex pt-20">
+        <div class="flex flex-col items-center justify-evenly">
+          <img src="assets/icons/logorizav.png" alt="" class="w-64" />
+
+          <span class="text-3xl font-bold tracking-widest">
+            Nuestras soluciones están orientadas para soportar cualquier carga
+            de trabajo, de esta manera optimizamos la rentabilidad de tu
+            inversión.
+          </span>
+        </div>
+      </div>
+    </section>
+    <section
+      class="flex w-full flex-wrap relative h-screen bg-center bg-cover bg-[#080d2d]"
+      style="background-image: url(./assets/bg/waves.svg)"
+    >
+      <div class="w-[5%] h-screen flex items-center justify-center">
+        <div class="flex gap-2 rotate-90">
+          <div class="flex flex-wrap gap-1">
+            <div class="h-[1px] w-[120px] bg-white mb-0 m-auto"></div>
+            <div class="h-[1px] w-[120px] bg-white mt-0 m-auto"></div>
+          </div>
+
+          <h1
+            class="text-whibg-white text-2xl tracking-[1em] font-bold uppercase"
+          >
+            CONTACTO
+          </h1>
+          <div class="flex flex-wrap gap-1 -ml-5">
+            <div class="h-[1px] w-[120px] bg-white mb-0 m-auto"></div>
+            <div class="h-[1px] w-[120px] bg-white mt-0 m-auto"></div>
+          </div>
+        </div>
+      </div>
+      <a name="contact"></a>
+      <div class="w-[95%]">
+        <div
+          class="flex flex-wrap items-end justify-center w-full h-screen m-auto"
+        >
+          <div class="flex justify-center w-1/3">
+            <img
+              src="assets/bg/ap.jpg"
+              alt=""
+              class="h-[570px] w-[800px] rounded-full"
+            />
+          </div>
+
+          <div class="flex flex-col items-center justify-between w-1/3 h-4/6">
+            <div class="text-5xl font-bold">
+              <h2>Déjanos un mensaje</h2>
+            </div>
+            <div>
+              <form id="contact_form" action="mail.php" method="POST">
+                <div class="grid grid-cols-2 gap-10">
+                  <div>
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Nombre"
+                      class="w-full bg-transparent border rounded-md h-[45px] p-2"
+                    />
+                  </div>
+
+                  <div class="">
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Dirección de correo"
+                      class="w-full bg-transparent border rounded-md h-[45px] p-2"
+                    />
+                  </div>
+
+                  <div class="">
+                    <input
+                      type="text"
+                      name="phone"
+                      placeholder="Número telefónico"
+                      class="w-full bg-transparent border rounded-md h-[45px] p-2"
+                    />
+                  </div>
+
+                  <div class="">
+                    <input
+                      type="text"
+                      name="web"
+                      placeholder="Empresa"
+                      class="w-full bg-transparent border rounded-md h-[45px] p-2"
+                    />
+                  </div>
+
+                  <div class="col-span-2">
+                    <textarea
+                      name="message"
+                      id="message"
+                      cols="30"
+                      rows="10"
+                      placeholder="Escribe tu mensaje"
+                      class="w-full p-2 bg-transparent border rounded-md"
+                    ></textarea>
+                  </div>
+                  <div class="flex justify-center col-span-2">
+                    <button
+                      class="bg-[rgba(255,255,255,0.2)] border-t-[1px] border-b-[1px] border-[rgba(255,255,255,0.2)] z-[1] relative text-base inline-block overflow-hidden rounded-full px-4 py-2 font-medium text-white hover:tracking-[1px] transition-all before:content-[''] before:absolute before:top-0 before:left-0 before:w-2/4 before:h-full before:bg-gradient-to-l from-[rgba(255,255,255,0.45)] to-transparent before:skew-x-[45deg] before:translate-x-0 before:transition-all hover:before:skew-x-[45deg] hover:before:translate-x-[200%] hover:before:transition-all"
+                      type="submit"
+                    >
+                      Enviar
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <?php
+                include("mail.php"
+              ?>
+              <p class="form-message"></p>
+            </div>
+          </div>
+          <div
+            class="flex w-1/3 flex-col items-center justify-evenly h-[570px]"
+          >
+            <span
+              class="flex flex-col items-center justify-center w-full gap-4"
+            >
+              <img src="./assets/icons/earth-fill.png" alt="" />
+              <span class="text-3xl">CDMX</span>
+            </span>
+            <span
+              class="flex flex-col items-center justify-center w-full gap-4"
+            >
+              <img src="./assets/icons/mail-send-fill.png" alt="" />
+              <span class="text-3xl">ventas_1@rizav.com.mx</span>
+            </span>
+          </div>
+          <div class="flex justify-center w-full cursor-default">
+            <div>© 2021 Rizav. Todos los derechos reservados.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              inter: ["Inter", "sans-serif"]
+            },
+            animation: {
+              "infinite-scroll": "infinite-scroll 45s linear infinite"
+            },
+            keyframes: {
+              "infinite-scroll": {
+                from: { transform: "translateX(0)" },
+                to: { transform: "translateX(-100%)" }
+              }
+            }
+          }
+        }
+      };
+    </script>
+    <script>
+      function Menu(e) {
+        let list = document.querySelector("ul");
+
+        e.name === "menu"
+          ? ((e.name = "close"),
+            list.classList.add("top-[72px]"),
+            list.classList.add("opacity-100"))
+          : ((e.name = "menu"),
+            list.classList.remove("top-[72px]"),
+            list.classList.remove("opacity-100"));
+      }
+      window.addEventListener("scroll", function () {
+        const navbar = document.querySelector("#navbar");
+        if (window.scrollY > 0) {
+          navbar.classList.add("scrolled"); // Agrega la clase 'scrolled' cuando se hace scroll
+        } else {
+          navbar.classList.remove("scrolled"); // Remueve la clase 'scrolled' cuando no se hace scroll
+        }
+      });
+    </script>
+  </body>
+</html>
